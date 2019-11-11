@@ -39,6 +39,8 @@
 	height: 130upx;
 	overflow: auto;
 	text-overflow: ellipsis;
+	/* overflow: hidden; */
+	word-break: break-all;
 	
 }
 

@@ -18,6 +18,10 @@
 		</view>
 		
 		
+		
+		
+		
+		<!-- 板块区start -->
 		<view class="plate-list page-block" >
 			<view class="single-plate" @click="ShowDetail_Main">
 					<image src="../../static/Homeicon/Home.png" class="plate-icon"></image>
@@ -58,6 +62,8 @@
 			
 			
 		</view>
+		<!-- 板块区end -->
+		
 	</view>
 </template>
 
@@ -73,7 +79,9 @@
 				platelist :[],
 				keywords: "",    //搜索关键字
 				page: 1,	     //当前第几页
-				totalPages:1     //总共第几页
+				totalPages:1     ,//总共第几页
+				
+				
 			}
 		},
 		methods: {
